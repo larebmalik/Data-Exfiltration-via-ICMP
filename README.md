@@ -1,2 +1,2 @@
-# Data-Exfiltration-via-ICMP
+# Data Exfiltration via ICMP
 ICMP exfil
