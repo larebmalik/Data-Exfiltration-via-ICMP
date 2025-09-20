@@ -14,4 +14,5 @@ Step 2 )> Run the ```icmp.py``` script on your server to capture incoming ICMP p
 
 <img width="1333" height="329" alt="icmp_2" src="https://github.com/user-attachments/assets/43263079-232e-4410-a0ac-a949d2a6b28f" />
 
-Disclaimer: This is for educational and defensive use only. Do not perform unauthorized testing, exploitation, or data exfiltration against systems you do not own or have explicit written permission to test.
+
+**Disclaimer: This is for educational and defensive use only. Do not perform unauthorized testing, exploitation, or data exfiltration against systems you do not own or have explicit written permission to test.**
